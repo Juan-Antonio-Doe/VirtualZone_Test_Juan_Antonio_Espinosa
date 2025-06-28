@@ -1951,6 +1951,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 5118772379483672327, guid: 41876584b60563147ba2221962f18939,
+        type: 3}
+      propertyPath: <onHeal>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118772379483672327, guid: 41876584b60563147ba2221962f18939,
+        type: 3}
+      propertyPath: <onDeath>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118772379483672327, guid: 41876584b60563147ba2221962f18939,
+        type: 3}
+      propertyPath: <onResurrect>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5118772379483672327, guid: 41876584b60563147ba2221962f18939,
+        type: 3}
+      propertyPath: <onTakeDamage>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5382989037047412043, guid: 41876584b60563147ba2221962f18939,
         type: 3}
       propertyPath: m_Layer
@@ -2166,6 +2186,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 1165058291350908473, guid: 41876584b60563147ba2221962f18939,
+        type: 3}
+      propertyPath: <npcOwner>k__BackingField
+      value: 
+      objectReference: {fileID: 643608768139063637}
     - target: {fileID: 1431029157740768440, guid: 41876584b60563147ba2221962f18939,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

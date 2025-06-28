@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 3689658179533369189, guid: df8925e8c6037c941b81a65ca8719bf4,
         type: 3}
       propertyPath: m_Name
-      value: NPC Variant
+      value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 3689658179533369189, guid: df8925e8c6037c941b81a65ca8719bf4,
         type: 3}
@@ -170,12 +170,36 @@ MonoBehaviour:
           m_StringArgument: Hurt
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1165058291350908473}
+        m_TargetAssemblyTypeName: ClockHealthManager, Assembly-CSharp
+        m_MethodName: DisplayHealthOnClock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hurt
+          m_BoolArgument: 0
+        m_CallState: 2
   <onHeal>k__BackingField:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4375086243992882232}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
         m_MethodName: Heal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Heal
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1165058291350908473}
+        m_TargetAssemblyTypeName: ClockHealthManager, Assembly-CSharp
+        m_MethodName: DisplayHealthOnClock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -200,12 +224,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1165058291350908473}
+        m_TargetAssemblyTypeName: ClockHealthManager, Assembly-CSharp
+        m_MethodName: DisplayHealthOnClock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   <onResurrect>k__BackingField:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4375086243992882232}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
         m_MethodName: Resurrect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1165058291350908473}
+        m_TargetAssemblyTypeName: ClockHealthManager, Assembly-CSharp
+        m_MethodName: DisplayHealthOnClock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -364,6 +412,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fd5b4f423fb29642ba3c69d604c91d3, type: 3}
+--- !u!114 &1165058291350908473 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 526699992876796266, guid: 9fd5b4f423fb29642ba3c69d604c91d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1685516748813985619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5843b0e309646354191f0d5d0ce3736e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4782097149953566737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6141014921902853954, guid: 9fd5b4f423fb29642ba3c69d604c91d3,

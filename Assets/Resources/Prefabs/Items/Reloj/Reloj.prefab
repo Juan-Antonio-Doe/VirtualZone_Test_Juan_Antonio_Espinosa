@@ -121,5 +121,63 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: da09d9513138edb4480fc1156a990742,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 526699992876796266}
   m_SourcePrefab: {fileID: 100100000, guid: da09d9513138edb4480fc1156a990742, type: 3}
+--- !u!4 &340059028129975275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6200291307316044610, guid: da09d9513138edb4480fc1156a990742,
+    type: 3}
+  m_PrefabInstance: {fileID: 5959385962979649705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1537403543646314238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4042533079599876521, guid: da09d9513138edb4480fc1156a990742,
+    type: 3}
+  m_PrefabInstance: {fileID: 5959385962979649705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4319758330364562574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7584379144640914471, guid: da09d9513138edb4480fc1156a990742,
+    type: 3}
+  m_PrefabInstance: {fileID: 5959385962979649705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5011518280038064141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1675199042659960996, guid: da09d9513138edb4480fc1156a990742,
+    type: 3}
+  m_PrefabInstance: {fileID: 5959385962979649705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6805664871109416440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: da09d9513138edb4480fc1156a990742,
+    type: 3}
+  m_PrefabInstance: {fileID: 5959385962979649705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &526699992876796266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805664871109416440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5843b0e309646354191f0d5d0ce3736e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <revalidateProperties>k__BackingField: 0
+  <npcOwner>k__BackingField: {fileID: 0}
+  <digitWheels>k__BackingField:
+  - {fileID: 340059028129975275}
+  - {fileID: 1537403543646314238}
+  - {fileID: 4319758330364562574}
+  <angleStep>k__BackingField: -36
+  <wheelRotationSpeed>k__BackingField: 180
+  <needle>k__BackingField: {fileID: 5011518280038064141}
+  minY: -90
+  maxY: 90
+  <needleRotationSpeed>k__BackingField: 180
