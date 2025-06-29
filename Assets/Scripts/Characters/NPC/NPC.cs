@@ -47,7 +47,7 @@ public class NPC : MonoBehaviour {
         }
 
         if (capCol == null) {
-            capCol = GetComponent<CapsuleCollider>();
+            capCol = GetComponentInChildren<CapsuleCollider>();
         }
 
         revalidateProperties = false;

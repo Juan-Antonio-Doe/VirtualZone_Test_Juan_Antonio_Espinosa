@@ -99,7 +99,7 @@ public class ClockHealthManager : MonoBehaviour {
 
         // for each wheel, stop any prior spin and start a new smooth spin
         for (int i = 0; i < digitWheels.Length; i++) {
-            var wheel = digitWheels[i];
+            Transform wheel = digitWheels[i];
             if (wheel == null) continue;
 
             if (digits[i] == lastDigits[i])
