@@ -16,9 +16,13 @@ public class DamageInputManager : MonoBehaviour {
         Tooltip("Bullet spawn distance from the camera")] private float bulletSpawnDistance { get; set; } = 1.0f;
     [field: SerializeField] private ObjectPool objectPool { get; set; }
     [field: SerializeField] private Projectile projectilePrefab { get; set; }
+    [field: SerializeField, ReadOnlyField] public bool exitWindowOpen { get; set; } = false;
 
 
     void Update() {
+        if (exitWindowOpen)
+            return;
+
 #if UNITY_EDITOR || UNITY_STANDALONE
         // Right-click to damage the NPC under the mouse cursor
         if (Input.GetMouseButtonDown(1)) {

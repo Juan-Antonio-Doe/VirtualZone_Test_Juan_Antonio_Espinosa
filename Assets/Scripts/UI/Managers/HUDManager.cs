@@ -13,4 +13,12 @@ public class HUDManager : MonoBehaviour {
             input.text = txt[1..];
     }
 
+    public void CloseGame() {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+    }
+
 }
