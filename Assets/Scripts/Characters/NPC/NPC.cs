@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour {
     [field: SerializeField] private bool revalidateProperties { get; set; } = false;
 
     [field: Header("NPC Settings")]
-    [field: SerializeField] private HealthController healthController { get; set; }
+    [field: SerializeField] public HealthController healthController { get; private set; }
 
     [field: SerializeField] private Animator anim { get; set; }
     [field: SerializeField] private CapsuleCollider capCol { get; set; }
