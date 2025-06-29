@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VZ_GameScene.unity
+    guid: 5cd493a9530c9bb4185ecd85d3505e0c
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: a1b5392ccb33e7c4291ceee11c2f9f86, type: 2}
